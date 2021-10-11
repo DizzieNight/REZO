@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/floor2Image"
+        android:layout_width="@+id/FragmentCON"
+        android:layout_height="515dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/first_floor" />
+
+    <Button
+        android:id="@+id/room5Button"
+        android:layout_width="144dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="196dp"
+        android:alpha="@dimen/buttonOpacity"
+        android:onClick="room5ButtonPressed"
+        app:layout_constraintBottom_toBottomOf="@id/floor2Image"
+        app:layout_constraintEnd_toEndOf="@id/floor2Image"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="@id/floor2Image" />
+
+    <Button
+        android:id="@+id/room6Button"
+        android:layout_width="147dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="72dp"
+        android:alpha="@dimen/buttonOpacity"
+        android:onClick="room6ButtonPressed"
+        app:layout_constraintBottom_toBottomOf="@id/floor2Image"
+        app:layout_constraintEnd_toEndOf="@id/floor2Image"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="@id/floor2Image" />
+
+    <Button
+        android:id="@+id/room4Button"
+        android:layout_width="119dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="280dp"
+        android:alpha="@dimen/buttonOpacity"
+        android:onClick="room4ButtonPressed"
+        app:layout_constraintBottom_toBottomOf="@id/floor2Image"
+        app:layout_constraintEnd_toEndOf="@id/floor2Image"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="@id/floor2Image" />
+
+    <Button
+        android:id="@+id/room2Button"
+        android:layout_width="109dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="176dp"
+        android:alpha="@dimen/buttonOpacity"
+        android:onClick="room2ButtonPressed"
+        app:layout_constraintBottom_toBottomOf="@id/floor2Image"
+        app:layout_constraintEnd_toEndOf="@id/floor2Image"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="@id/floor2Image" />
+
+    <Button
+        android:id="@+id/room3Button"
+        android:layout_width="174dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="352dp"
+        android:alpha="@dimen/buttonOpacity"
+        android:onClick="room3ButtonPressed"
+        app:layout_constraintBottom_toBottomOf="@id/floor2Image"
+        app:layout_constraintEnd_toEndOf="@id/floor2Image"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="@id/floor2Image" />
+
+    <Button
+        android:id="@+id/room1Button"
+        android:layout_width="109dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:alpha="@dimen/buttonOpacity"
+        android:onClick="room1ButtonPressed"
+        app:layout_constraintBottom_toBottomOf="@id/floor2Image"
+        app:layout_constraintEnd_toEndOf="@id/floor2Image"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="@id/floor2Image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

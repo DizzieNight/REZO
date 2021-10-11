@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">REZO</string>
+    <string name="title_floors">Floors</string>
+    <string name="title_home">Home</string>
+    <string name="title_bookings">Bookings</string>
+    <string name="floorsPaneText">Floors</string>
+    <string name="bookingsPaneText">Bookings</string>
+    <string name="floorsButtonText">Floors</string>
+    <string name="homeButtonText">Home</string>
+    <string name="settingsButtonText">Settings</string>
+    <string name="firstFloorDesc">This it the floorplan for the first floor</string>
+    <string name="dText">Select Date: </string>
+    <string name="tText">Select Time: </string>
+    <string name="roomTemp">!!tempROOM!!</string>
+    <string name="selectFloors">Select Floors:</string>
+    <string name="deleteBookingsButtonDesc">This button is used to remove all bookings the user has made</string>
+    <string name="bookButton">Book</string>
+
+    <string-array name="floorSpinner">
+        <item>First Floor</item>
+        <item>Second Floor</item>
+    </string-array>
+
+    <string-array name="dtTest">
+        <item>TEST1</item>
+        <item>TEST2</item>
+        <item>TEST3</item>
+    </string-array>
+
+    <string-array name="timeArray">
+        <item>Select Time</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+    </string-array>
+</resources>
